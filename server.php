@@ -5,8 +5,8 @@ session_start();
 $username = "";
 $email    = "";
 $errors = array();
-$host = "";
-$password = "";
+$host = "34.68.235.72";
+$password = "jdks6577sakjd";
 
 // connect to the database
 $db = mysqli_connect($host, 'root', $password, 'registration');
