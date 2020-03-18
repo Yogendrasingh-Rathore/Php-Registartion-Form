@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+echo "hi";
 // initializing variables
 $username = "";
 $email    = "";
@@ -13,6 +13,7 @@ $db = mysqli_connect($host, 'root', $password, 'registration');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
+	echo "connected";
   // receive all input values from the form
   $username = mysqli_real_escape_string($db, $_POST['username']);
   $email = mysqli_real_escape_string($db, $_POST['email']);
