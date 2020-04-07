@@ -5,8 +5,8 @@ echo "hi";
 $username = "";
 $email    = "";
 $errors = array();
-$host = "34.68.235.72";
-$password = "jdks6577sakjd";
+$host = "External_IP_of_SQL";
+$password = "ROOT_PASSWORD";
 
 // connect to the database
 $db = mysqli_connect($host, 'root', $password, 'registration');
